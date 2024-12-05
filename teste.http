@@ -1,5 +1,11 @@
 ### Obter publicações ativas
-GET http://localhost:3000/api/publicacoes/current
+GET http://localhost:8000/api/publicacoes/current
 
 ### Obter publicação por URL
-GET http://localhost:3000/api/publicacoes/byurl/o_sistema_operacional_linux
+GET http://localhost:8000/api/publicacoes/byurl/o_sistema_operacional_linux
+
+### Obter publicações por tipo
+GET http://localhost:8000/api/publicacoes/bytype/artigos
+
+### Obter publicações por tag
+GET http://localhost:8000/api/publicacoes/bytype/artigos

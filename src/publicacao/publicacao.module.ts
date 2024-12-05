@@ -4,11 +4,10 @@ import { PublicacaoController } from './publicacao.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Publicacao } from './publicacao.entity';
 import { TipoPublicacao } from './tipopublicacao.entity';
-import { TagController } from '../tag/tag.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Publicacao, TipoPublicacao])],
   providers: [PublicacaoService],
-  controllers: [PublicacaoController, TagController]
+  controllers: [PublicacaoController,]
 })
 export class PublicacaoModule {}

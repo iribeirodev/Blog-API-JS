@@ -2,7 +2,6 @@ import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PublicacaoModule } from './publicacao/publicacao.module';
-import { TagController } from './tag/tag.controller';
 
 @Module({
   imports: [

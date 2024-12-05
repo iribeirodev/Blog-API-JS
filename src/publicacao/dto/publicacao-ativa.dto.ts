@@ -1,11 +1,11 @@
 export class PublicacaoAtivaDto {
     id: number;
     titulo: string;
-    detalhe: string;
+    texto: string;
     url: string;
     tipoPublicacao: string;
     tags: string[];
-    tempoPublicadoEmDias: number;
+    tempoPublicadoEmDias: string;
     dataPublicacao: string;
     dataRevisao: string;
     imageLink: string;

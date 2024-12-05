@@ -29,8 +29,8 @@ async function bootstrap() {
   const environment = process.env.NODE_ENV || 'development';
 
   
-  Logger.log(`Aplicação iniciando no ambiente: ${environment}`, 'Bootstrap');
-  
+  Logger.log(`Aplicação iniciando no ambiente: ${environment}, porta: ${process.env.PORT}`, 'Bootstrap');
+
   if (environment !== 'production') {
     const config = new DocumentBuilder()
       .setTitle('Blog API')
